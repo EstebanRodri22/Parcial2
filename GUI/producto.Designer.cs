@@ -59,6 +59,7 @@
             this.txtReferencia.Name = "txtReferencia";
             this.txtReferencia.Size = new System.Drawing.Size(100, 20);
             this.txtReferencia.TabIndex = 1;
+            this.txtReferencia.TextChanged += new System.EventHandler(this.txtReferencia_TextChanged);
             // 
             // txtNombre
             // 
@@ -66,6 +67,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 2;
+            this.txtNombre.TextChanged += new System.EventHandler(this.txtNombre_TextChanged);
             // 
             // txtCantidad
             // 
@@ -73,6 +75,7 @@
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(100, 20);
             this.txtCantidad.TabIndex = 3;
+            this.txtCantidad.TextChanged += new System.EventHandler(this.txtCantidad_TextChanged);
             // 
             // txtPrecioUni
             // 
@@ -80,6 +83,7 @@
             this.txtPrecioUni.Name = "txtPrecioUni";
             this.txtPrecioUni.Size = new System.Drawing.Size(100, 20);
             this.txtPrecioUni.TabIndex = 4;
+            this.txtPrecioUni.TextChanged += new System.EventHandler(this.txtPrecioUni_TextChanged);
             // 
             // txtStock
             // 
@@ -87,6 +91,7 @@
             this.txtStock.Name = "txtStock";
             this.txtStock.Size = new System.Drawing.Size(100, 20);
             this.txtStock.TabIndex = 5;
+            this.txtStock.TextChanged += new System.EventHandler(this.txtStock_TextChanged);
             // 
             // cmbEstado
             // 
@@ -95,6 +100,7 @@
             this.cmbEstado.Name = "cmbEstado";
             this.cmbEstado.Size = new System.Drawing.Size(100, 21);
             this.cmbEstado.TabIndex = 6;
+            this.cmbEstado.SelectedIndexChanged += new System.EventHandler(this.cmbEstado_SelectedIndexChanged);
             // 
             // label2
             // 
@@ -149,6 +155,7 @@
             this.btnGuardar.TabIndex = 12;
             this.btnGuardar.Text = "guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnCancelar
             // 
@@ -158,6 +165,7 @@
             this.btnCancelar.TabIndex = 13;
             this.btnCancelar.Text = "cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // frmProducto
             // 
